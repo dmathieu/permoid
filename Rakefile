@@ -17,7 +17,7 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
     gemspec.name = "permoid"
-    gemspec.summary = "Permalinkd for Mongoid"
+    gemspec.summary = "Permalinks for Mongoid"
     gemspec.description = "Add permalinks to your mongoid models"
     gemspec.email = "42@dmathieu.com"
     gemspec.homepage = "http://github.com/dmathieu/permoid"
