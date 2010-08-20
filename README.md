@@ -12,13 +12,13 @@ Add permalinks to your Mongoid Models
 * Install the gem and include it to your project/Gemfile.
 * Define a model with a permalink :
 
-    class Testing
-        include Mongoid::Document
-        include Permoid::Base
+     class Testing
+         include Mongoid::Document
+         include Permoid::Base
         
-        field   :title
-        validates_presence_of :title
-    end
+         field   :title
+         validates_presence_of :title
+     end
 
 Go roll !
 
